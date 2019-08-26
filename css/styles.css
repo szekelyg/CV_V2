@@ -1,3 +1,20 @@
 body{
-        background-color: blue;
+        margin: 0;
+}
+
+h1{
+  margin-top: 0;
+}
+
+/* class  */
+.top-C{
+  background-color: #dff0ea;
+}
+
+.middle-C{
+
+}
+
+.bottom-C{
+
 }
