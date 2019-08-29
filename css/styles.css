@@ -46,9 +46,20 @@ li{
 
 footer{
   background-color: #11999E;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  line-height: 2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+
+
+footer a{
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover{
+  color: #d2fafb;
 }
 
 .skill-row p{
@@ -149,4 +160,8 @@ footer{
 .btn:hover{
   color:  #11999E;
   background-color: white;
+}
+
+.copyright{
+  font-size: 70%;
 }
