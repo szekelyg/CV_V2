@@ -1,3 +1,5 @@
+/* HTML TAGS */
+
 body{
    background-color: #e3fdfd;
    margin: 0;
@@ -30,14 +32,14 @@ h3{
 
 
 hr{
-        border-style: none;
-        border-top-style: dotted;
-        border-width: 8px;
-        background-color: none;
-        border-color: grey;
-        width: 10%;
-        margin-top: 100px;
-        margin-bottom: 100px;
+   border-style: none;
+   border-top-style: dotted;
+   border-width: 8px;
+   background-color: none;
+   border-color: grey;
+   width: 10%;
+   margin-top: 100px;
+   margin-bottom: 100px;
 }
 
 li{
@@ -45,22 +47,24 @@ li{
 }
 
 footer{
-  background-color: #11999E;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 1.5;
+   background-color: #11999E;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   line-height: 1.5;
 }
 
 
 footer a{
-  margin: 15px;
-  text-decoration: none;
-  color: white;
+   margin: 15px;
+   text-decoration: none;
+   color: white;
 }
 
 footer a:hover{
-  color: #d2fafb;
+   color: #d2fafb;
 }
+
+/* CLASSES */
 
 .hello{
    margin-top: 3%;
@@ -71,10 +75,10 @@ footer a:hover{
 }
 
 .skill-img{
-    width: 100%;
-    height: 100%; 
-    max-height: 200px;
-    max-width: 200px;
+   width: 100%;
+   height: 100%; 
+   max-height: 200px;
+   max-width: 200px;
 }
 
 
@@ -104,7 +108,6 @@ footer a:hover{
 .middle-container{
   background-color: #e3fdfd;
   padding-top: 100px;
- 
 }
 
 .bottom-container{      
@@ -135,7 +138,6 @@ footer a:hover{
   width: 30%;
   margin: 20px auto;
   line-height: 2;
-
 }
 
 .btn{
@@ -149,7 +151,6 @@ footer a:hover{
 .contact-me{
   padding-bottom: 80px;
   position: relative;
-  
 }
 
 .btn-p{
@@ -165,28 +166,32 @@ footer a:hover{
   font-size: 70%;
 }
 
+/* MOBILE SCREEN */
 
 @media (max-width: 1200px){
         .skills img{
                 margin: 50px auto;
         } 
-        
+ 
         .row{
                 text-align: center;
                 width: 90%
         }
+        
         .row h3{
                 text-align: center;
                 margin: 30px auto;
                 font-size: 3.5em;
                 width: 90%
         }
+        
         p{
                 font-size: 3em;
                 width: 90%;
                 margin-right: auto;
                 margin-left: auto;
         }
+        
         .skill-row{
                 width: 90%;
         }
