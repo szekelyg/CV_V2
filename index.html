@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Gellert's personal site</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="icon" href="images/favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet"> 
@@ -20,45 +21,59 @@
       <div class="middle-container">
           <div class="profile">
             <img src="images/profil.png" alt="Gellert's profile image" width="110px" align="middle">
-            <h2>Hello.</h2>
+            <h2 class="hello">Hello!</h2>
             <p>Now I develop database querys use <strong>Progress</strong> but I want to be a professional <strong>full stack</strong> Web Developer.</p>
           </div>
           <hr>
           <div class="skills">
             <h2>Skills, Education</h2>
-            <div class="skill-row">
-              <img class="computer-img" src="images/computer.png" alt="Image of a laptop">
-              <h3>2019 March: Hungarian Suzuki</h3>
-                <div class="skill-description">
+
+
+            <div class="row">
+                <div class="col-lg-3 ">
+                    <img class="skill-img" src="images/computer.png" alt="Image of a laptop">
+                </div>
+                <div class="col-lg-9">
+                    <h3>2019 March: Hungarian Suzuki</h3>
                     <p>I'm in the Team of Magyar Suzuki Zrt. IT department, exactly in the factory team. Now I am in <strong>Full Stack</strong> position because I do a lot of <strong>database</strong> work, and also create <strong>graphical</strong> interfaces. To solve all of the problems, I use Openedge <strong>Progress</strong>.</p>
                 </div>
             </div>
-            <div class="skill-row">
-              <img class="android-img" src="images/android-logo.png" alt="Android logo">
-              <h3>2018 October - 2019 February: Erasmus+ Traineeship, Cluj-Napoca</h3>
-                <div class="skill-description">
+
+
+           <div class="row">
+                <div class="col-lg-9 order-lg-1 order-md-2 order-sm-2">
+                    <h3>2018 October - 2019 February: Erasmus+ Traineeship, Cluj-Napoca</h3>
                     <p>I worked beside a network engineer, at Sapientia, Hungarian University of Transilvania. My job was to write a program, which can <strong>generate Google Forms</strong> from an <strong>Excel file</strong>. I used Google Script. In my free time I started to learn <strong>Android Development</strong>, used Java.</p>
                 </div>
+                <div class="col-lg-3 order-lg-2 order-md-1 order-sm-1">
+                    <img class="skill-img" src="images/android-logo.png" alt="Android logo">
+                    
+                </div>
             </div>
-            <div class="skill-row">
-              <img class="graduation-img" src="images/graduation.png" alt="Graduation logo">
-              <h3>2015 September - 2018 Juni: Eotvos Lorand University, Computer Science Bsc</h3>
-                <div class="skill-description">
+
+
+            <div class="row">
+                <div class="col">
+                    <h3>2015 September - 2018 Juni: Eotvos Lorand University, Computer Science Bsc</h3>
                     <p>I learned about basic algorithms, and several program languages like <strong>ADA, C++, C, SQL, Python</strong>. I have chosen mathematics department, so I also meet <strong>Matlab, Maple, Sage, and R</strong>, to modelling some problem and statistic.</p>
-                    <p>My thesis was a website called BaBi (Basic Bioinformatics) where students can get some basic knowledge about genetics, and can practice string algorithms. <a href=http://webprogramozas.inf.elte.hu/hallgatok/szekelygellert/ >http://webprogramozas.inf.elte.hu/hallgatok/szekelygellert/</a> I used <strong>HTML, CSS, PHP, MySQL</strong>, and a little <strong>JavaScript</strong>. I worked in <strong>Atom</strong>, and got to know how to use <strong>Git</strong>, to follow the versions. I had to extend my university knowledge, so Google and <strong>Stackoverflow</strong> became my close friends.</p>
+                    <p>My thesis was a website called <a href=http://webprogramozas.inf.elte.hu/hallgatok/szekelygellert/ >BaBi</a> (Basic Bioinformatics) where students can get some basic knowledge about genetics, and can practice string algorithms. I used <strong>HTML, CSS, PHP, MySQL</strong>, and a little <strong>JavaScript</strong>. I worked in <strong>Atom</strong>, and got to know how to use <strong>Git</strong>, to follow the versions. I had to extend my university knowledge, so Google and <strong>Stackoverflow</strong> became my close friends.</p>
                     <p>During the university years, I worked at weekends as a teacher in <strong>Logiscool</strong>. We used ScoolCode to set together games using blocks. I think, it is a very good way for kids beetwen 7-17 years to learn <strong>object orientated programming</strong>.</p>
                 </div>
             </div>
-            <div class="skill-row">
-              <h3>2013 September - 2014 May</h3>
-                <div class="skill-description"> 
+
+            <div class="row">
+                <div class="col-lg-3">
+                   <img class="skill-img align-self-center" src="images/graduation.png" alt="Graduation logo">
+                </div>
+                <div class="col-lg-9">
+                    <h3>2013 September - 2014 May</h3>
                     <p>When I was in the class eleven, I travelled to Budapest every weekends to prepare myself to the higher level informatics exam. We used <strong>C#</strong> to practice.</p>
                 </div>
             </div>
-            <hr>
+      <hr>
             <h2>Personal skills</h2>
             <div class="skill-row">
-              <img class="personal-img" src="images/personal.png" alt="Personal Skills icon">
+              <img class="skill-img" src="images/personal.png" alt="Personal Skills icon">
                 <ol>
                     <li>I have an <strong>English B2</strong> language exam.</li>
                     <li><strong>B category</strong> driving licence. </li>
@@ -68,12 +83,21 @@
                 </ol>
             </div>
          </div>
+         <hr>
      </div>
      <div class="bottom-container">
+       
+       <h2>Practice Pages</h2>
+         <div class="pages">
+               <p>Degree: <a href="http://webprogramozas.inf.elte.hu/hallgatok/szekelygellert/">Basic Bioinf</a> Projekt used <strong>PHP MySql</strong></p>
+               <p><a href="https://szekelyg.github.io/tindog/">Tindog</a>: I started to learn <strong>bootstrap</strong> </p>
+               <p>Comming soon...</p>
+         </div>
+       <hr>
        <h2>Get in touch</h2>
        <div class="contact-me">             
            <P><b>Country:</b> Hungary                   </P>
-           <P><b>Phone:</b> +363085...84 <br>           </P>
+           <P><b>Phone:</b> +36308544484 <br>           </P>
            <P><b>E-mail:</b> szekely.gellerth@gmail.com </P>
            <p class="btn-p"><a class="btn" href="mailto:szekely.gellerth@gmail.com">CONTACT ME</a></p>
        </div>
