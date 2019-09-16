@@ -173,25 +173,40 @@ footer a:hover{
         
         .row{
                 text-align: center;
+                width: 90%
         }
         .row h3{
                 text-align: center;
                 margin: 30px auto;
                 font-size: 3.5em;
+                width: 90%
         }
         p{
                 font-size: 3em;
+                width: 90%;
+                margin-right: auto;
+                margin-left: auto;
         }
-        li{
-                font-size: 3em;
+        .skill-row{
+                width: 90%;
         }
         
-        h2{
-                font-size: 5em
+        ol{
+                font-size: 3em;
+                width: 90%;
+        }
+        
+        h1, h2{
+                font-size: 5em;
+                width: 90%;
+                margin-right: auto;
+                margin-left: auto;
         }
         
         .profile p{
                 width: 70%
          }
-        
+        .bottom-cloud{
+                top: 200px;
+        }
 }
