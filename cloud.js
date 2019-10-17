@@ -12,5 +12,5 @@ function cloud2Right() {
     $(".bottom-cloud").animate({left: "+=500"}, 10000, "swing", cloud2Left);
 }
 
-cloudRight();
-cloud2Left();
+cloudLeft();
+cloud2Right();
